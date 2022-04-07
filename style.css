@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    border: solid 2px black;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background: rgb(42,43,45);
+    background: linear-gradient(0deg, rgba(42,43,45,1) 27%, rgba(136,137,138,1) 74%);
+    width: 400px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.str-img{
+    background-color: grey;
+    padding: 10px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+.title1,.Thank {
+    font-weight: bold;
+    margin: 20px 0px;
+    color: white;
+    padding: 10px 30px;
+}
+
+.title2, .msg{
+    padding: 10px 30px;
+    color: white;
+}
+
+.buttons{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 10px;
+}
+
+.btn {
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: rgb(74, 74, 74);
+    color: white;
+    margin-right: 20px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.btnPressed{
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: rgb(255, 166, 0);
+    margin-right: 20px;
+}
+
+.submit{
+   display: flex;
+   justify-content: center;
+}
+.submitB{
+    color: white;
+    background-color: rgb(255, 149, 2);
+    border-radius: 10px;
+    font-size: 20px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.submitB:hover{
+    background-color: white;
+    color: orange;
+}
+
+.thank-img{
+    display: block;
+    margin: 20px auto;
+}
+
+.rating{
+    background-color: grey;
+    width: fit-content;
+    border-radius: 10px;
+    margin: 30px auto;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    
+}
+
+.Thank{
+    margin: 30px auto;
+    width: fit-content;
+}
+
+.page2{
+    display: none;
+}
+
+.msg{
+    font-size: 18px;
+}
